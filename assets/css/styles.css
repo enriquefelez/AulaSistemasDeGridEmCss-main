@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+}
+.grid .col-1 {
+  grid-column: span 1;
+}
+@media (max-width: 768px) {
+  .grid .col-1 {
+    grid-column: span 6;
+  }
+}
+.grid .col-2 {
+  grid-column: span 2;
+}
+@media (max-width: 768px) {
+  .grid .col-2 {
+    grid-column: span 6;
+  }
+}
+.grid .col-3 {
+  grid-column: span 3;
+}
+@media (max-width: 768px) {
+  .grid .col-3 {
+    grid-column: span 12;
+  }
+}
+.grid .col-4 {
+  grid-column: span 4;
+}
+@media (max-width: 768px) {
+  .grid .col-4 {
+    grid-column: span 19;
+  }
+}
+.grid .col-5 {
+  grid-column: span 5;
+}
+@media (max-width: 768px) {
+  .grid .col-5 {
+    grid-column: span 19;
+  }
+}
+.grid .col-6 {
+  grid-column: span 6;
+}
+@media (max-width: 768px) {
+  .grid .col-6 {
+    grid-column: span 19;
+  }
+}
+.grid .col-7 {
+  grid-column: span 7;
+}
+@media (max-width: 768px) {
+  .grid .col-7 {
+    grid-column: span 19;
+  }
+}
+.grid .col-8 {
+  grid-column: span 8;
+}
+@media (max-width: 768px) {
+  .grid .col-8 {
+    grid-column: span 19;
+  }
+}
+.grid .col-9 {
+  grid-column: span 9;
+}
+@media (max-width: 768px) {
+  .grid .col-9 {
+    grid-column: span 19;
+  }
+}
+.grid .col-10 {
+  grid-column: span 10;
+}
+@media (max-width: 768px) {
+  .grid .col-10 {
+    grid-column: span 19;
+  }
+}
+.grid .col-11 {
+  grid-column: span 11;
+}
+@media (max-width: 768px) {
+  .grid .col-11 {
+    grid-column: span 19;
+  }
+}
+.grid .col-12 {
+  grid-column: span 12;
+}
+@media (max-width: 768px) {
+  .grid .col-12 {
+    grid-column: span 19;
+  }
+}
+
+div {
+  background-color: rgb(0, 255, 234);
+}
+
+div {
+  border: 1px solid rgb(4, 146, 255);
+  box-sizing: border-box;
+}/*# sourceMappingURL=styles.css.map */
